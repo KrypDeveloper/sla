@@ -11,7 +11,7 @@ for _, a in pairs(game.Workspace:GetDescendants()) do
   a:Clone()
     a:Destroy()
   end
-    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+    game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(niga))
   contagem = contagem + 1
   return contagem
   end
